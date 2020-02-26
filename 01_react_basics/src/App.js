@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { LoremIpsum } from 'react-lorem-ipsum';
+import MyHeader from './components/myHeader';
+import MyFooter from './components/MyFooter';
+import MainSection from './components/MainSection';
+import Clicker from './components/Clicker';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyHeader></MyHeader>
+      <h1>This is React Intro Page</h1>
+      <LoremIpsum p={1} />
+      <MainSection></MainSection>
+      <Clicker></Clicker>
+      <MyFooter></MyFooter>
     </div>
   );
 }
