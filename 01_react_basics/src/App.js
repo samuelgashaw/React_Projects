@@ -7,6 +7,8 @@ import Clicker from './components/Clicker';
 import AboutState from './components/AboutState';
 import AboutProps from './components/AboutProps';
 import AboutFunctionProps from './components/AboutFunctionProps';
+import AboutPropsValidation from './components/AboutPropsValidatipon';
+import PropsValidationEx from './components/PropsValidationEx';
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,16 @@ function App() {
         name="Function props"
         value="This is another value"
       ></AboutFunctionProps>
+      <AboutPropsValidation></AboutPropsValidation>
+      <PropsValidationEx
+        array={[1, 2, 3, 4]}
+        boolean={true}
+        function={function() {
+          return 10;
+        }}
+        string={'JavaTpoint'}
+        number={1}
+      ></PropsValidationEx>
       <MyFooter></MyFooter>
     </div>
   );
