@@ -1,0 +1,7 @@
+Date Feb 27/20
+
+1. State
+2. props
+3. props validation (prop Types)
+4. State Vs props
+5. Constructor

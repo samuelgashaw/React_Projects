@@ -32,15 +32,15 @@ export default class Clicker extends Component {
           <div>
             {/*Adding value to counter*/}
             <button onClick={this.incrementCount} className="btn btn-success">
-              +{' '}
+              +
             </button>
             {/*Reseting value to counter*/}
             <button onClick={this.resetCount} className="btn btn-danger">
-              Reset Number
+              Reset
             </button>
             {/*Decrement value to counter*/}
             <button onClick={this.decrementCount} className="btn btn-success">
-              -{' '}
+              -
             </button>
           </div>
         </div>
