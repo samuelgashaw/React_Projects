@@ -1,0 +1,12 @@
+{
+	"id": 2,
+	"name": "Mike Miller",
+	"email": "mm@test.com",
+	"phone": "123-456-7890",
+	"city": "Main Land",
+	"state": "MD",
+	"country": "US",
+	"organization": "Company 2",
+	"jobProfile": "Software Developer",
+	"additionalInfo": "Buys Products Rarely"
+}

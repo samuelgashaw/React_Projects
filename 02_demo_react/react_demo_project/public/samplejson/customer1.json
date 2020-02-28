@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "John Smith",
+  "email": "jsmith@test.com",
+  "phone": "123-456-7890",
+  "city": "Falls Church",
+  "state": "VS",
+  "country": "US",
+  "organization": "Collab",
+  "jobProfile": "Software Developer",
+  "additionalInfo": "Has Bought a lot of products before and a high Value Customer"
+}
