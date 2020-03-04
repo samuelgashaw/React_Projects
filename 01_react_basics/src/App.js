@@ -25,13 +25,13 @@ function App() {
       ></AboutFunctionProps>
       <AboutPropsValidation></AboutPropsValidation>
       <PropsValidationEx
-        array={[1, 2, 3, 4]}
-        boolean={true}
-        function={function() {
+        a={[1, 2, 3, 4]}
+        b={true}
+        f={function() {
           return 10;
         }}
-        string={'JavaTpoint'}
-        number={1}
+        s={'JavaTpoint'}
+        n={1}
       ></PropsValidationEx>
       <MyFooter></MyFooter>
     </div>

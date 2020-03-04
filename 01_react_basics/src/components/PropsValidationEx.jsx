@@ -13,35 +13,27 @@ export default function PropsValidationEx(props) {
           <tbody>
             <tr>
               <td>Array</td>
-              <td>{props.array}</td>
-              <td>{props.array === propTypes.array ? 'True' : 'False'}</td>
+              <td>{props.a}</td>
+              <td>{propTypes.a ? 'True' : 'False'}</td>
             </tr>
             <tr>
               <td>Boolean</td>
-              <td>{props.boolean}</td>
-              <td>
-                {props.boolean.propTypes === propTypes.bool ? 'True' : 'False'}
-              </td>
+              <td>{props.b}</td>
+              <td>{props.b.bool ? 'True' : 'False'}</td>
             </tr>
             <tr>
               <td>Function</td>
-              <td>{props.function}</td>
-              <td>
-                {props.function.propTypes === propTypes.func ? 'True' : 'False'}
-              </td>
+              <td>{props.f}</td>
+              <td>{props.f.func ? 'True' : 'False'}</td>
             </tr>
             <tr>
               <td>String</td>
-              <td>{props.string}</td>
-              <td>
-                {props.string.propTypes === propTypes.string ? 'True' : 'False'}
-              </td>
+              <td>{props.s}</td>
+              <td>{props.string ? 'True' : 'False'}</td>
             </tr>
             <tr>
-              <td>Number</td> <td>{props.number}</td>
-              <td>
-                {props.number.propTypes === propTypes.number ? 'True' : 'False'}
-              </td>
+              <td>Number</td> <td>{props.n}</td>
+              <td>{props.number ? 'True' : 'False'}</td>
             </tr>
           </tbody>
           <tfoot></tfoot>
@@ -50,3 +42,10 @@ export default function PropsValidationEx(props) {
     </div>
   );
 }
+PropsValidationEx.prop = {
+  a: propTypes.array,
+  b: propTypes.bool,
+  f: propTypes.func,
+  s: propTypes.string,
+  n: propTypes.number
+};

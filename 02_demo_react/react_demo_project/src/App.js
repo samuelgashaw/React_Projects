@@ -13,7 +13,9 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Customer List with Details</h1>
+          <h1 className="App-title" style={{ height: '50px', color: 'red' }}>
+            Customer List with Details
+          </h1>
         </header>
         <Switch>
           <Route

@@ -29,7 +29,7 @@ export default class Customer extends Component {
     if (!this.state.CustomerList) return <p>Loading Data...</p>;
     return (
       <div>
-        <div>
+        <div className="row">
           <div className="col-md-3">
             {this.state.CustomerList.data.map(customer => {
               return (

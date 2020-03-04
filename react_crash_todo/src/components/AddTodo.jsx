@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropertyTypes from 'prop-types';
+import propTypes from 'prop-types';
 export class AddTodo extends Component {
   state = { title: '' };
   onChange = e => {
